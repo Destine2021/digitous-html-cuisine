@@ -1,0 +1,99 @@
+
+header {
+    background-image:linear-gradient(grey, #333), url(../img/team/team.jpg);
+    background-blend-mode: multiply ;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Courgette', "cursive";
+    padding-bottom: 100px;
+}
+img{
+    border-radius: 50%;
+}
+/* fonction .navbar-collapse permet de mettre le menu nav à droite quand le flex-grow est unset*/
+.navbar-collapse{
+    flex-grow:unset;
+    justify-content: space-between;
+ }
+h1{ 
+    font-family: 'Courgette', 'cursive';
+}
+h3{
+    font-family: 'Courgette', 'cursive';
+}
+.titre{
+    padding-bottom: 40px; 
+}
+P{
+    font-family: "oswald" sans-serif;
+    align-content:stretch;
+}
+h5{
+    font-family: 'Courgette', 'cursive';
+    padding-left: 39px;
+    align-items: left;
+    
+}
+h6, #icons{
+    font-family: 'Courgette', 'cursive';
+    text-align: left;
+}
+#icon{
+    font-family: 'Courgette', 'cursive';
+    text-align: center;
+    
+}
+
+a{
+color: white;
+}
+#terminalone{
+padding: 40px;
+}
+footer{
+background-color: black; 
+background-size: cover;
+color: white;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+div.row{
+    padding-bottom: 20px;
+}
+#ecris{
+    border-color:grey;   
+}
+#clic{ 
+   width: 190px;
+   border-color:grey;
+      border-radius: 4px;
+}
+.section{
+    display:flex ;
+    flex-direction:row; 
+    padding:15px;
+    justify-content:left;  
+}
+.rowfour{
+display:flex ;
+flex-direction:row;
+justify-content: space-between; 
+}
+.rowone, .rowsecond, .rowthird{
+    text-align: center;
+}
+.img-fluid{
+    align-content:center ;
+    justify-content: center;
+ }
+.recherchez{
+    padding-left:  20px;
+}
+
+
+
+/*.collapsenavbar-collapse{
+    justify-content: flex-end;
+}*/
+
+

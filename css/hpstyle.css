@@ -1,0 +1,79 @@
+
+header {
+    background-image:linear-gradient(grey, #333), url(../img/header.jpg);
+    background-blend-mode: multiply ;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Courgette', "cursive";
+    padding-bottom: 60px;
+}
+
+
+/* fonction .navbar-collapse permet de mettre le menu nav à droite quand le flex-grow est unset*/
+.navbar-collapse{
+    flex-grow:unset;
+    justify-content: space-between;
+ }
+h1{ 
+    font-family: 'Courgette', 'cursive';
+}
+h3{
+    font-family: 'Courgette', 'cursive';
+}
+.titre{
+    padding-bottom: 40px; 
+}
+P{
+    font-family: "oswald" sans-serif;
+}
+h5{
+    font-family: 'Courgette', 'cursive';
+    padding-bottom:;
+}
+a{
+color: white;
+}
+
+
+#containerparent{
+padding: 40px;
+}
+footer{
+box-sizing: ;
+background-color: black; 
+background-size: cover;
+color: white;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+div.row{
+    padding-bottom: 20px;
+}
+#ecris{
+border-color:grey;  
+}
+
+#clic{ 
+   width: 190px;
+   border-color:grey;
+   border-radius: 4px;
+}
+.iconsone{
+    display:flex ;
+    flex-direction:row; 
+    padding: 20px;
+    justify-content:flex-start;
+    size: 10px;  
+}
+
+
+
+
+
+
+
+/*.collapsenavbar-collapse{
+    justify-content: flex-end;
+}*/
+
+
